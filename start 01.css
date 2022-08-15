@@ -1,0 +1,101 @@
+:root{
+  --cor-01: rgb(146, 116, 255);
+  --cor-02: dimgrey;
+  --cor-03: gainsboro;
+}
+
+body{
+  background-color: var(--cor-01);
+  font-size: 15px;
+  font-family: arial;
+}
+
+div#conteiner{
+  height: 525px;
+  width: 360px;
+  margin:70px auto;
+  background: rgb(255, 255, 255);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.329);
+  border-radius: 15px;
+}
+
+h1#title{
+  background: var(--cor-03);
+  color: var(--cor-02);
+  padding: 20px;
+  padding-left: 40px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+form.forms{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.forminput{
+  background: white;
+  width: 100px;
+  padding: 5px 5px 8px 8px;
+}
+
+.forminput2{
+  background: white;
+  width: 50px;
+  padding: 5px 5px 8px 8px;
+}
+
+.forminput:focus{
+  border: 3px solid var(--cor-01);
+  outline: none ;
+}
+
+.formselect:focus{
+  border: 3px solid var(--cor-01);
+  outline: none ;
+}
+.formselect{
+  width: 180px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.formbutton{
+  text-transform: uppercase;
+  font-weight: bold;
+  display:block;
+  margin: 30px auto;
+  background: var(--cor-01);
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.37);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.534);
+}
+
+#marca{
+  text-transform: uppercase;
+  text-align:center;
+  padding-top: 5px;
+  font-weight: bold;
+  display:block;
+  margin: 10px auto;
+  background: var(--cor-03);
+  width: 100px;
+  height: 20px;
+  color: rgb(120, 4, 165);
+  font-size: 13px;
+  border-radius: 5px;
+  margin-top: 110px;
+  }
+
+#total {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
